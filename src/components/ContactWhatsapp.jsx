@@ -32,7 +32,7 @@ export default function ContactWhatsapp() {
   }, []); // El arreglo vacío asegura que useEffect solo se ejecute al montar y desmontar el componente
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = "3104426317";
+    const phoneNumber = "3163632401";
     const message = "¡Hola! Quisiera hacer una consulta sobre alguno de tus servicios.";
     const url =
       "https://api.whatsapp.com/send?phone=" +

@@ -1,0 +1,327 @@
+---
+import IconJava from "../icons/IconJava.astro";
+import IconSpring from "../icons/IconSpring.astro";
+import IconAngular from "../icons/IconAngular.astro";
+import IconAws from "../icons/IconAws.astro";
+---
+
+<section
+  class="bg-[#FFFFFF] top-0 start-0 border-y-[2.3px] border-[#021E1E]"
+  id="personal-experience"
+>
+  <div
+    class="max-w-screen-2xl flex items-center justify-between mx-auto p-3 relative"
+  >
+    <div class="flex items-center space-x-3 rtl:space-x-reverse">
+      <!-- <IconDev /> -->
+      <h2
+        class="text-1xl font-bold text-center sm:text-4xl xl:text-[30px] rounded px-2 py-1 max-w-md mx-auto"
+      >
+        Stack Tecnologico
+      </h2>
+    </div>
+
+    <!-- Menu button for small screens -->
+    <div class="flex md:order-2 space-x-3 rtl:space-x-reverse">
+      <h4 class="font-medium text-[18px]">Algunas tecnologias que manejo</h4>
+    </div>
+  </div>
+</section>
+<section class="w-full flex items-center justify-center mt-24 mb-24">
+  <div class="container mx-auto px-4 md:px-6 flex flex-col items-center">
+
+
+    <!-- Grid de Tecnologías -->
+    <div class="w-full grid grid-cols-2 md:grid-cols-4 gap-6 px-4">
+      <!-- Java -->
+      <div class="tech-card group">
+        <!-- ICONO JAVA: Reemplazar este div con tu SVG -->
+
+        <div
+          class="icon-container bg-[#8CC246]/20 w-24 h-24 rounded-xl mb-4 flex items-center justify-center"
+        >
+          <IconJava />
+        </div>
+        <h3 class="text-2xl font-semibold text-[#021E1E] mb-2">Java</h3>
+        <span class="category-badge bg-[#A5E35C]/10 text-[#021E1E]"
+          >Backend</span
+        >
+      </div>
+
+      <!-- Spring Boot -->
+      <div class="tech-card group">
+        <div
+          class="icon-container bg-[#8CC246]/20 w-24 h-24 rounded-xl mb-4 flex items-center justify-center"
+        >
+          <IconSpring />
+        </div>
+        <h3 class="text-2xl font-semibold text-[#021E1E] mb-2">Spring Boot</h3>
+        <span class="category-badge bg-[#A5E35C]/10 text-[#021E1E]"
+          >Microservicios</span
+        >
+      </div>
+
+      <!-- Angular -->
+      <div class="tech-card group">
+        <div
+          class="icon-container bg-[#8CC246]/20 w-24 h-24 rounded-xl mb-4 flex items-center justify-center"
+        >
+          <IconAngular />
+        </div>
+        <h3 class="text-2xl font-semibold text-[#021E1E] mb-2">Angular</h3>
+        <span class="category-badge bg-[#A5E35C]/10 text-[#021E1E]"
+          >Frontend</span
+        >
+      </div>
+
+      <!-- AWS -->
+      <div class="tech-card group">
+        <div
+          class="icon-container bg-[#8CC246]/20 w-24 h-24 rounded-xl mb-4 flex items-center justify-center"
+        >
+          <IconAws />
+        </div>
+        <h3 class="text-2xl font-semibold text-[#021E1E] mb-2">AWS</h3>
+        <span class="category-badge bg-[#A5E35C]/10 text-[#021E1E]"
+          >DevOps / Cloud</span
+        >
+      </div>
+
+      <!-- Repetir patrón para las demás tecnologías -->
+
+      <!-- Pruebas Unitarias -->
+      <div class="tech-card group">
+        <div
+          class="icon-container bg-[#8CC246]/20 w-24 h-24 rounded-xl mb-4 flex items-center justify-center"
+        >
+          <!-- Icono Jest -->
+        </div>
+        <h3 class="text-2xl font-semibold text-[#021E1E] mb-2">Jest</h3>
+        <span class="category-badge bg-[#A5E35C]/10 text-[#021E1E]"
+          >Testing</span
+        >
+      </div>
+
+      <!-- Repetir para Mockito, Jasmine, Karma, Sonarlint -->
+
+      <!-- Bases de Datos -->
+      <div class="tech-card group">
+        <div
+          class="icon-container bg-[#8CC246]/20 w-24 h-24 rounded-xl mb-4 flex items-center justify-center"
+        >
+          <!-- Icono PostgreSQL -->
+        </div>
+        <h3 class="text-2xl font-semibold text-[#021E1E] mb-2">PostgreSQL</h3>
+        <span class="category-badge bg-[#A5E35C]/10 text-[#021E1E]"
+          >Database</span
+        >
+      </div>
+
+      <!-- Repetir para MySQL, Oracle, MongoDB, etc -->
+
+      <!-- DevOps -->
+      <div class="tech-card group">
+        <div
+          class="icon-container bg-[#8CC246]/20 w-24 h-24 rounded-xl mb-4 flex items-center justify-center"
+        >
+          <!-- Icono Docker -->
+        </div>
+        <h3 class="text-2xl font-semibold text-[#021E1E] mb-2">
+          GitHub Actions
+        </h3>
+        <span class="category-badge bg-[#A5E35C]/10 text-[#021E1E]">DevOps</span
+        >
+      </div>
+
+      <!-- Seguridad -->
+      <div class="tech-card group">
+        <div
+          class="icon-container bg-[#8CC246]/20 w-24 h-24 rounded-xl mb-4 flex items-center justify-center"
+        >
+          <!-- Icono JWT -->
+        </div>
+        <h3 class="text-2xl font-semibold text-[#021E1E] mb-2">JWT</h3>
+        <span class="category-badge bg-[#A5E35C]/10 text-[#021E1E]"
+          >Security</span
+        >
+      </div>
+
+      <!-- Herramientas QA -->
+      <div class="tech-card group">
+        <div
+          class="icon-container bg-[#8CC246]/20 w-24 h-24 rounded-xl mb-4 flex items-center justify-center"
+        >
+          <!-- Icono Cypress -->
+        </div>
+        <h3 class="text-2xl font-semibold text-[#021E1E] mb-2">Cypress</h3>
+        <span class="category-badge bg-[#A5E35C]/10 text-[#021E1E]"
+          >QA Testing</span
+        >
+      </div>
+
+      <!-- Softwares -->
+      <div class="tech-card group">
+        <div
+          class="icon-container bg-[#8CC246]/20 w-24 h-24 rounded-xl mb-4 flex items-center justify-center"
+        >
+          <!-- Icono Figma -->
+        </div>
+        <h3 class="text-2xl font-semibold text-[#021E1E] mb-2">Figma</h3>
+        <span class="category-badge bg-[#A5E35C]/10 text-[#021E1E]">Design</span
+        >
+      </div>
+
+      <!-- Arquitecturas -->
+      <div class="tech-card group">
+        <div
+          class="icon-container bg-[#8CC246]/20 w-24 h-24 rounded-xl mb-4 flex items-center justify-center"
+        >
+          <!-- Icono Hexagonal -->
+        </div>
+        <h3 class="text-2xl font-semibold text-[#021E1E] mb-2">Hexagonal</h3>
+        <span class="category-badge bg-[#A5E35C]/10 text-[#021E1E]"
+          >Arquitectura</span
+        >
+      </div>
+      <div class="tech-card group">
+        <div
+          class="icon-container bg-[#8CC246]/20 w-24 h-24 rounded-xl mb-4 flex items-center justify-center"
+        >
+          <!-- Icono JavaScript -->
+        </div>
+        <h3 class="text-2xl font-semibold text-[#021E1E] mb-2">JavaScript</h3>
+        <span class="category-badge bg-[#A5E35C]/10 text-[#021E1E]"
+          >Frontend</span
+        >
+      </div>
+
+      <div class="tech-card group">
+        <div
+          class="icon-container bg-[#8CC246]/20 w-24 h-24 rounded-xl mb-4 flex items-center justify-center"
+        >
+          <!-- Icono Go -->
+        </div>
+        <h3 class="text-2xl font-semibold text-[#021E1E] mb-2">Go</h3>
+        <span class="category-badge bg-[#A5E35C]/10 text-[#021E1E]"
+          >Backend</span
+        >
+      </div>
+
+      <div class="tech-card group">
+        <div
+          class="icon-container bg-[#8CC246]/20 w-24 h-24 rounded-xl mb-4 flex items-center justify-center"
+        >
+          <!-- Icono Dart -->
+        </div>
+        <h3 class="text-2xl font-semibold text-[#021E1E] mb-2">Dart</h3>
+        <span class="category-badge bg-[#A5E35C]/10 text-[#021E1E]">Mobile</span
+        >
+      </div>
+
+      <div class="tech-card group">
+        <div
+          class="icon-container bg-[#8CC246]/20 w-24 h-24 rounded-xl mb-4 flex items-center justify-center"
+        >
+          <!-- Icono C++ -->
+        </div>
+        <h3 class="text-2xl font-semibold text-[#021E1E] mb-2">C++</h3>
+        <span class="category-badge bg-[#A5E35C]/10 text-[#021E1E]"
+          >Sistemas</span
+        >
+      </div>
+
+      <div class="tech-card group">
+        <div
+          class="icon-container bg-[#8CC246]/20 w-24 h-24 rounded-xl mb-4 flex items-center justify-center"
+        >
+          <!-- Icono React -->
+        </div>
+        <h3 class="text-2xl font-semibold text-[#021E1E] mb-2">React</h3>
+        <span class="category-badge bg-[#A5E35C]/10 text-[#021E1E]"
+          >Frontend</span
+        >
+      </div>
+
+      <div class="tech-card group">
+        <div
+          class="icon-container bg-[#8CC246]/20 w-24 h-24 rounded-xl mb-4 flex items-center justify-center"
+        >
+          <!-- Icono Ionic -->
+        </div>
+        <h3 class="text-2xl font-semibold text-[#021E1E] mb-2">Ionic</h3>
+        <span class="category-badge bg-[#A5E35C]/10 text-[#021E1E]">Mobile</span
+        >
+      </div>
+
+      <!-- Backend -->
+      <div class="tech-card group">
+        <div
+          class="icon-container bg-[#8CC246]/20 w-24 h-24 rounded-xl mb-4 flex items-center justify-center"
+        >
+          <!-- Icono Golang -->
+        </div>
+        <h3 class="text-2xl font-semibold text-[#021E1E] mb-2">Golang</h3>
+        <span class="category-badge bg-[#A5E35C]/10 text-[#021E1E]"
+          >Backend</span
+        >
+      </div>
+
+      <div class="tech-card group">
+        <div
+          class="icon-container bg-[#8CC246]/20 w-24 h-24 rounded-xl mb-4 flex items-center justify-center"
+        >
+          <!-- Icono NestJS -->
+        </div>
+        <h3 class="text-2xl font-semibold text-[#021E1E] mb-2">NestJS</h3>
+        <span class="category-badge bg-[#A5E35C]/10 text-[#021E1E]"
+          >Backend</span
+        >
+      </div>
+
+      <div class="tech-card group">
+        <div
+          class="icon-container bg-[#8CC246]/20 w-24 h-24 rounded-xl mb-4 flex items-center justify-center"
+        >
+          <!-- Icono Node.js -->
+        </div>
+        <h3 class="text-2xl font-semibold text-[#021E1E] mb-2">Node.js</h3>
+        <span class="category-badge bg-[#A5E35C]/10 text-[#021E1E]"
+          >Backend</span
+        >
+      </div>
+
+      <!-- Web Fundamentals -->
+      <div class="tech-card group">
+        <div
+          class="icon-container bg-[#8CC246]/20 w-24 h-24 rounded-xl mb-4 flex items-center justify-center"
+        >
+          <!-- Icono HTML5 -->
+        </div>
+        <h3 class="text-2xl font-semibold text-[#021E1E] mb-2">HTML5</h3>
+        <span class="category-badge bg-[#A5E35C]/10 text-[#021E1E]">Web</span>
+      </div>
+
+      <div class="tech-card group">
+        <div
+          class="icon-container bg-[#8CC246]/20 w-24 h-24 rounded-xl mb-4 flex items-center justify-center"
+        >
+          <!-- Icono CSS3 -->
+        </div>
+        <h3 class="text-2xl font-semibold text-[#021E1E] mb-2">CSS3</h3>
+        <span class="category-badge bg-[#A5E35C]/10 text-[#021E1E]">Web</span>
+      </div>
+
+      <div class="tech-card group">
+        <div
+          class="icon-container bg-[#8CC246]/20 w-24 h-24 rounded-xl mb-4 flex items-center justify-center"
+        >
+          <!-- Icono AngularJS -->
+        </div>
+        <h3 class="text-2xl font-semibold text-[#021E1E] mb-2">AngularJS</h3>
+        <span class="category-badge bg-[#A5E35C]/10 text-[#021E1E]"
+          >Frontend</span
+        >
+      </div>
+    </div>
+  </div>
+</section>

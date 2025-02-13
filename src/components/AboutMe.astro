@@ -1,8 +1,6 @@
----
-import IconPerson from "../icons/IconPerson.astro";
----
 
-<section class="bg-[#FFFFFF] top-0 start-0 border-y-[2.3px] border-[#021E1E]">
+
+<section class="bg-[#FFFFFF] top-0 start-0 border-y-[2.3px] border-[#021E1E]" id="about-me">
     <div
       class="max-w-screen-2xl flex items-center justify-between mx-auto p-3 relative"
     >
@@ -17,14 +15,14 @@ import IconPerson from "../icons/IconPerson.astro";
   
       <!-- Menu button for small screens -->
       <div class="flex md:order-2 space-x-3 rtl:space-x-reverse">
-        <h4 class="font-medium text-[20px]">
-            Permíteme contarte algo más sobre mi historia :)
+        <h4 class="font-medium text-[18px]">
+            Permíteme contarte algo más sobre mi :)
         </h4>
       </div>
     </div>
   </section>
 
-  <section class="w-full flex items-center justify-center bg-gray-100 mt-24">
+  <section class="w-full flex items-center justify-center bg-gray-100 mt-24 mb-24">
     <div class="container mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-center text-center md:text-left">
       
         <!-- Contenido de presentación -->
@@ -46,8 +44,8 @@ import IconPerson from "../icons/IconPerson.astro";
         </div>
     
         <!-- Imagen o SVG -->
-        <div class="mt-10 md:mt-0 md:ml-12 w-72 h-72">
-          <IconPerson />
+        <div class="mt-10 md:mt-0 md:ml-12 w-64 h-64 md:w-72 md:h-72 flex justify-center items-center">
+          <img src="/img/ImgJose.jpeg" alt="Img Jose" class="rounded-full border-4 border-primary shadow-lg w-full h-full object-cover">
         </div>
     
       </div>

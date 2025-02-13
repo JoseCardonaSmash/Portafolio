@@ -8,3 +8,26 @@
     border: none;
     border-radius: 50%;
 }
+
+.tech-card {
+    @apply p-6 rounded-2xl border-2 border-[#021E1E]/10 hover:border-[#8CC246] transition-all;
+    @apply flex flex-col items-center text-center;
+    min-height: 220px;
+}
+
+.tech-card:hover {
+    box-shadow: 0 8px 24px -6px rgba(140, 194, 70, 0.2);
+}
+
+.category-badge {
+    @apply px-3 py-1 rounded-full text-sm font-medium;
+}
+
+/* Animación para hover */
+.tech-card:hover .icon-placeholder {
+    transform: scale(1.1) rotate(-5deg);
+}
+
+.icon-placeholder {
+    @apply transition-transform duration-300;
+}
