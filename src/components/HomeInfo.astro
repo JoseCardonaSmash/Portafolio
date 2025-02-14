@@ -4,40 +4,54 @@ import IconEmail from "../icons/IconEmail.astro";
 import IconLikeind from "../icons/IconLikeind.astro";
 ---
 
-<section id="hero" class="w-full h-screen flex items-center justify-center bg-gray-100">
-    <div class="container mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-center text-center md:text-left">
-      
-        <!-- Contenido de presentación -->
-        <div class="max-w-2xl">
-          <h1 class="text-4xl md:text-5xl font-extrabold">
-            Hola, soy <span class="text-[#A5E35C]">Jose--</span> 
-          </h1>
-          <p class="mt-4 text-lg">
-            Desarrollador Full Stack con 4+ años de experiencia en **soluciones escalables** y de alto rendimiento.  
-            Experto en <span class="font-semibold">Java, Angular, Spring Boot y Microservicios</span>.
-          </p>
-          <p class="mt-2">
-            Lidero mi **SaaS "Aurora"**, centrado en **POS, facturación electrónica y automatización con IA**.  
-            Amante de la **música y los viajes**, siempre buscando nuevos desafíos tecnológicos.
-          </p>
-          
-          <div class="mt-6 flex justify-center md:justify-start space-x-4">
-            <a href="#contacto" class="px-6 py-3 flex items-center text-[#021E1E]  font-bold hover:text-white hover:bg-[#021E1E] bg-transparent border-[#021E1E] shadow-[0px_4px_1px_1px_#021E1E] border-2 transition">
-                <IconEmail /> 
-              Contáctame
-            </a>
-            <a href="/cv.pdf" class="px-6 py-3 flex items-center text-[#021E1E]  font-bold hover:text-white hover:bg-[#021E1E] bg-transparent border-[#021E1E] shadow-[0px_4px_1px_1px_#021E1E] border-2 transition">
-                <IconLikeind />
-                LinkedIn 
-            </a>
-          </div>
-        </div>
-    
-        <!-- Imagen o SVG -->
-        <div class="mt-10 md:mt-0 md:ml-12 w-72 h-72">
-          <IconPerson />
-        </div>
-    
+<section
+  id="hero"
+  class="w-full h-screen flex items-center justify-center bg-gray-100"
+>
+  <div
+    class="container mx-auto px-4 md:px-6 flex flex-col md:flex-row items-center justify-center text-center md:text-left"
+  >
+    <!-- Contenido de presentación -->
+    <div class="max-w-2xl">
+      <h1 class="text-4xl md:text-5xl font-extrabold">
+        Hola, soy <span class="text-[#A5E35C]">Jose--</span>
+      </h1>
+      <p class="mt-4 text-lg">
+        Desarrollador Full Stack con 4+ años de experiencia en **soluciones
+        escalables** y de alto rendimiento. Experto en <span
+          class="font-semibold"
+          >Java, Angular, Spring Boot y Microservicios</span
+        >.
+      </p>
+      <p class="mt-2">
+        Lidero mi **SaaS "Aurora"**, centrado en **POS, facturación electrónica
+        y automatización con IA**. Amante de la **música y los viajes**, siempre
+        buscando nuevos desafíos tecnológicos.
+      </p>
+
+      <div class="mt-6 flex justify-center md:justify-start space-x-4">
+        <a
+          href="mailto:luiscardonadevelop@gmail.com?subject=Contacto%20desde%20Portafolio"
+          aria-label="Contactar a Luis Cardona por correo electrónico"
+          class="px-6 py-3 flex items-center text-[#021E1E] font-bold hover:text-white hover:bg-[#021E1E] bg-transparent border-[#021E1E] shadow-[0px_4px_1px_1px_#021E1E] border-2 transition"
+        >
+          <IconEmail />
+          Contáctame
+        </a>
+        <a
+          href="https://www.linkedin.com/in/jose-luis-cardona-victoria-5459b5211/"
+          target="_blank"
+          class="px-6 py-3 flex items-center text-[#021E1E] font-bold hover:text-white hover:bg-[#021E1E] bg-transparent border-[#021E1E] shadow-[0px_4px_1px_1px_#021E1E] border-2 transition"
+        >
+          <IconLikeind />
+          LinkedIn
+        </a>
       </div>
+    </div>
+
+    <!-- Imagen o SVG -->
+    <div class="mt-10 md:mt-0 md:ml-12 w-72 h-72">
+      <IconPerson />
+    </div>
+  </div>
 </section>
-  

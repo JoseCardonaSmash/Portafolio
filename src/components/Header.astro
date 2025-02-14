@@ -1,12 +1,5 @@
 ---
-import IconApp from "../icons/IconApp.astro";
 import IconMenu from "../icons/IconMenu.astro";
-import IconService from "../icons/IconService.astro";
-import IconContact from "../icons/IconContact.astro";
-import IconAboutAurora from "../icons/IconAboutAurora.astro";
-import IconPlans from "../icons/IconPlans.astro";
-import IconCash from "../icons/IconCash.astro";
-import IconDev from "../icons/IconDev.astro";
 //IconPlans
 ---
 
@@ -18,8 +11,8 @@ import IconDev from "../icons/IconDev.astro";
   >
     <!-- Logo and Home Link -->
     <a href="/" class="flex items-center space-x-3 rtl:space-x-reverse">
-        <!-- <IconDev /> -->
-         <h1 class="text-4xl font-medium ">Jose Cardona</h1>
+      <!-- <IconDev /> -->
+      <h1 class="text-4xl font-medium">Jose Cardona</h1>
     </a>
 
     <!-- Menu button for small screens -->
@@ -42,34 +35,34 @@ import IconDev from "../icons/IconDev.astro";
       class="hidden md:flex md:w-auto md:order-1 md:ml-auto md:flex-row bg-[#FFFFFF] border-b-[2.3px] border-[#F3F4F6] flex-col w-full md:mt-0 font-medium md:space-x-8 rtl:space-x-reverse z-30 md:border-0 absolute md:static left-0 right-0 top-full md:top-auto"
     >
       <ul
-        class="w-full h-full md:w-auto flex flex-col md:flex-row p-4 md:p-0 mt-1 font-medium space-y-5 md:space-y-0 
+        class="w-full h-full md:w-auto flex flex-col md:flex-row p-4 md:p-0 mt-1 font-medium space-y-5 md:space-y-0
         space-x-0 sm:space-x-2 md:space-x-5 lg:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 space-x-0-custom"
       >
-      <li class="border-b sm:border-none">
-        <a
-          href="#personal-experience"
-          class="btn flex items-center py-2 px-3 font-bold text-[#021E1E] rounded text__glowing mb-3 md:mb-0"
+        <li class="border-b sm:border-none">
+          <a
+            href="#personal-experience"
+            class="btn flex items-center py-2 px-3 font-bold text-[#021E1E] rounded text__glowing mb-3 md:mb-0"
           >
-          <!-- <IconAboutAurora /> -->
-          Experiencia</a
-        >
-      </li>
-        
+            <!-- <IconAboutAurora /> -->
+            Experiencia</a
+          >
+        </li>
+
         <li class="border-b sm:border-none">
           <a
             href="#about-me"
             class="btn flex items-center py-2 px-3 font-bold text-[#021E1E] rounded text__glowing mb-3 md:mb-0"
-            >
+          >
             <!-- <IconContact /> -->
             Sobre mí</a
           >
         </li>
-     
+
         <li class="border-b sm:border-none">
           <a
             href="#personal-projects"
             class="btn flex items-center py-2 px-3 font-bold text-[#021E1E] rounded text__glowing mb-3 md:mb-0"
-            >
+          >
             <!-- <IconPlans /> -->
             Proyectos</a
           >
@@ -83,23 +76,27 @@ import IconDev from "../icons/IconDev.astro";
               Blog</a
             >
           </li> -->
-          <li class="border-b sm:border-none">
-            <a
-              href="#about"
-              class="btn flex items-center py-2 px-3 font-bold text-[#021E1E] rounded text__glowing mb-3 md:mb-0"
-              aria-current="page">
-              <!-- <IconService /> -->
-              CV</a
-            >
-          </li>
-        <li class="pt-3 pb-1 sm:p-0">
+        <li class="border-b sm:border-none">
           <a
-            href="#gallery"
-            class="btn block py-2 px-4 font-bold text-[#021E1E] hover:text-white shadow-[0px_4px_1px_1px_#8CC246] border-2 border-primary hover:bg-[#8CC246] bg-[#A5E35C] border-[#8CC246]"
-            >Contacto</a
+            href="/cv/CV_Jose-Cardona.docx.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn flex items-center py-2 px-3 font-bold text-[#021E1E] rounded text__glowing mb-3 md:mb-0"
+            aria-current="page"
+          >
+            <!-- <IconService /> -->
+            CV</a
           >
         </li>
-    
+        <li class="pt-3 pb-1 sm:p-0">
+          <a
+            href="mailto:luiscardonadevelop@gmail.com?subject=Contacto%20desde%20Portafolio"
+            aria-label="Contactar a Luis Cardona por correo electrónico"
+            class="btn block py-2 px-4 font-bold text-[#021E1E] hover:text-white shadow-[0px_4px_1px_1px_#8CC246] border-2 border-primary hover:bg-[#8CC246] bg-[#A5E35C] border-[#8CC246]"
+          >
+            Contacto
+          </a>
+        </li>
       </ul>
     </div>
   </div>
