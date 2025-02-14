@@ -13,8 +13,13 @@ export default defineConfig({
     }),
   ],
   vite: { plugins: [tailwindcss()] },
-  output: 'server',
   adapter: vercel({
-    includeFiles: ["./public/**/*"]
+    // Configuración esencial:
+    includeFiles: ["./public/**/*", "./src/server/**/*"], // Archivos estáticos y lógica de servidor
+    maxDuration: 30,       // Timeout máximo para funciones serverless
+    isr: false,            // Desactiva ISR si no lo usas
+    edgeMiddleware: false, // Desactiva middleware Edge si no es necesario
+    imageService: true,    // Habilita Vercel Image Optimization si usas imágenes
   }),
+  output: 'server',
 });
