@@ -13,6 +13,8 @@ export default defineConfig({
     }),
   ],
   vite: { plugins: [tailwindcss()] },
-  adapter: vercel(), // Sin opciones adicionales
   output: 'static',
+  adapter: vercel({
+    imageService: true,
+  }),
 });
