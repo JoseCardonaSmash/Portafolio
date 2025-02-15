@@ -21,5 +21,5 @@ export default defineConfig({
     edgeMiddleware: false, // Desactiva middleware Edge si no es necesario
     imageService: true,    // Habilita Vercel Image Optimization si usas imágenes
   }),
-  output: 'static',
+  output: 'server',
 });
